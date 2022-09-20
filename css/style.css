@@ -1,0 +1,58 @@
+body{
+    background-image: url(../images/wallpaper.jpg) ;
+}
+
+
+header{
+    color: white;
+    background: url(../images/banner.jpg) right ;
+}
+section{
+    color: white;
+}
+
+h2{
+    color: crimson;
+}
+
+a {   
+  font-weight: bold; 
+}
+
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+a:active {
+  color: aqua;
+  background-color: blue;
+}
+
+footer{
+ position: fixed;
+    bottom:1px;
+}
+.ui.table thead th{
+      background: blue;
+      color: white;
+    }
+
+    .ui.striped.table > tr:nth-child(2n),
+    .ui.striped.table tbody tr:nth-child(2n) {
+      background-color: rgba(200,0,0, .3);
+    }
+
+    .ui.selectable.table tbody tr:hover,
+    .ui.table tbody tr td.selectable:hover {
+      background-color: rgba(0, 200, 0,.5) !important;
+    }
